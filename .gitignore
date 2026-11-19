@@ -1,0 +1,16 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/app/.cxx/
+/captures/
+.externalNativeBuild/
+
+# Real secrets input should never be committed. The demo file is kept on purpose.
+/secrets.properties
+
+# Generated header (key + encoded data) — rebuilt automatically by Gradle
+/app/src/main/cpp/generated/

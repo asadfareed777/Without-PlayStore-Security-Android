@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Secure Keys Demo</string>
+    <string name="label_base_url">BASE_URL</string>
+    <string name="label_iv">IV</string>
+    <string name="label_secret">SECRET</string>
+    <string name="reveal">Reveal IV / SECRET</string>
+    <string name="hide">Hide IV / SECRET</string>
+    <string name="hint_input">Text to encrypt</string>
+    <string name="encrypt">AES encrypt → decrypt</string>
+    <string name="header">Constants loaded from C++ (XOR-decoded at startup)</string>
+    <string name="crypto_result">Encrypted (Base64):\n%1$s\n\nDecrypted:\n%2$s</string>
+</resources>
